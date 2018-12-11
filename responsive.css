@@ -1,0 +1,60 @@
+/**
+ *	Responsive Markup
+ */
+#content-404 {
+  margin-top: 10%;
+  visibility: hidden;
+}
+#content-coming {
+  margin-top: 18%;
+  visibility: hidden;
+}
+@media (max-width: 1199px) {
+  section {
+    visibility: visible;
+  }
+  h1 {
+    font-size: 140px;
+  }
+  h2 {
+    font-size: 28px;
+  }
+  form input {
+    padding: 19px 20px;
+  }
+  form input[type="text"] {
+    width: auto;
+  }
+}
+@media (max-width: 768px) {
+  section {
+    visibility: visible;
+  }
+  h1 {
+    font-size: 140px;
+  }
+  h2 {
+    font-size: 28px;
+  }
+  p {
+    font-size: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  form input {
+    padding: 19px 20px;
+  }
+  form input[type="text"] {
+    width: auto;
+  }
+  #content-404 {
+    margin-top: 10%;
+  }
+  #content-coming h1 {
+    font-size: 80px;
+  }
+  #content-coming p {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}

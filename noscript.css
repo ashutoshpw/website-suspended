@@ -1,0 +1,11 @@
+/*------------------------------------------------------------------
+Project:	Special Pages
+File:		No JS script stylesheet
+Version:	1.0
+-------------------------------------------------------------------*/
+#content-404 {
+	visibility: visible !important;
+}
+#content-coming {
+	visibility: visible !important;
+}
